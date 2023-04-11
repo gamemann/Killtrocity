@@ -1,0 +1,12 @@
+[Unit]
+Description=Killtrocity program.
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+WorkingDirectory=/root/killtrocity/src
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

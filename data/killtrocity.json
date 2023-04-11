@@ -1,0 +1,9 @@
+{
+    "kf_addr": "127.0.0.1",
+    "kf_port": 8003,
+    "km_addr": "127.0.0.1",
+    "km_port": 8002,
+    "stress": false,
+    "stress_array_size": 4096,
+    "stress_count": 30
+}
